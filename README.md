@@ -1,7 +1,7 @@
 # tietotekniikkasanakartuttaja / IT word accumulator
-PHP-pohjainen, AJAXia hyödyntävä tietotekniikkasanakartuttaja, joka mm. tulostaa sivulle suomenkielisiä IT-sanoja selityksineen, tilin luonnin sanojen tallentamista ja latausta XLS-tiedostona varten ja sanavisan sanojen tarkoituksien ymmärtämisen testaamiseksi.
+PHP-pohjainen, AJAXia hyödyntävä tietotekniikkasanakartuttaja, joka mm. tulostaa sivulle suomenkielisiä IT-sanoja selityksineen, tilin luonnin sanojen tallentamista ja latausta CSV-tiedostona varten ja sanavisan sanojen tarkoituksien ymmärtämisen testaamiseksi.
 
-A PHP and AJAX based web page that among other things prints Finnish IT words to the front page with descriptions, offers a word quiz to test one's understanding of the words, creating an account and saving as well as downloading the words as an XLS-file.
+A PHP and AJAX based web page that among other things prints Finnish IT words to the front page with descriptions, offers a word quiz to test one's understanding of the words, creating an account and saving as well as downloading the words as an CSV-file.
 
 # asentaminen / installation
 Käyttämistä varten tarvitaan palvelin ja SQL-tietokanta. Olen itse käyttänyt XAMPP-tekniikkapinkkaa (tuki Apache-palvelimelle, phpMyAdminille ja PHP:lle), jossa hakemisto asetetaan polkuun: xampp/htdocs/`kansio`. Tietokanta on nimellä `words` ja sen sisällä taulut `favourites`, `words`, `feed`, `letter` ja `users`.
